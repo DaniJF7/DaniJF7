@@ -1,0 +1,61 @@
+@import "./header.css";
+@import "./main.css";
+@import "./footer.css";
+
+body {
+  margin: 0;
+  background-color: #fff;
+}
+body,
+h1,
+h2,
+p,
+strong,
+a,
+li {
+  margin: 0;
+}
+ul {
+  list-style-type: none;
+}
+@media (max-width: 1000px) {
+  .bag_text {
+    display: none;
+  }
+  .inf {
+    place-items: center;
+    gap: 0rem;
+  }
+  .text_exp {
+    font-size: 6rem;
+    grid-column: 1 / -1;
+  }
+  .inf section {
+    grid-column: 1 / -1;
+  }
+
+  .faculdades {
+    place-items: center;
+  }
+  .formacao {
+    grid-column: 1 / -1;
+    margin-top: 6.8rem;
+    margin-left: 0rem;
+    font-size: 6rem;
+  }
+  .competencias2 {
+    grid-column: 1;
+  }
+  .topico2 {
+    grid-column: 1 / -1;
+  }
+  footer {
+    width: 100vw;
+  }
+  footer div {
+    grid-column: 1 / -1;
+  }
+  footer .direitos_auto {
+    grid-column: 1 / -1;
+  }
+}

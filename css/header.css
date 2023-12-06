@@ -1,0 +1,28 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+header {
+  display: flex;
+  align-items: center;
+  max-width: 74.0625rem;
+  max-height: 7.57144rem;
+  flex-shrink: 0;
+  margin: 1rem auto;
+}
+header img {
+  max-width: 7rem;
+}
+header ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-left: auto;
+}
+header li {
+  padding: 0%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
